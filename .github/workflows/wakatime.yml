@@ -2,21 +2,22 @@ name: WakaTime Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # запускается каждый день
+    - cron: '0 0 * * *'  # Runs every day at 00:00 UTC
   workflow_dispatch:
 
 jobs:
   update-readme:
+    name: Update WakaTime Stats
     runs-on: ubuntu-latest
+
     steps:
       - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TOTAL_CODE_TIME: true
-          SHOW_LANGUAGE: true
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SHOW_OS: true
-          SHOW_EDITOR: true
-          SHOW_TIMEZONE: true
+          SHOW_EDITORS: true
+          SHOW_LANGUAGE: true
           SHOW_PROJECTS: true
-          SHOW_COMMIT: false
-          SHOW_PROFILE_VIEWS: false
+          SHOW_TIMEZONE: true
+          SHOW_TOTAL_CODE_TIME: true
