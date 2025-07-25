@@ -2,7 +2,7 @@
 
 <p align="center">
 I'm a C++ and Python developer focused on algorithms, machine learning, and data analysis.<br>
-I work with tools like CLion, PyCharm, and VS Code. Below you can see my activity and full tech stack.
+Below you can see my activity and full tech stack.
 </p>
 
 ---
