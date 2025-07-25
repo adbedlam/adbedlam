@@ -36,14 +36,6 @@ Below you can see my activity and full tech stack.
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux)
 ![Windows](https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=windows)
 
----
-
-## 📊 Weekly WakaTime Stats
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-> ⚡ Updated daily using [WakaTime](https://wakatime.com)
 
 ---
 
